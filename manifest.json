@@ -1,0 +1,21 @@
+{
+    "name": "Clutterless Roblox",
+    "description": "Clean up the clutter on the home screen and other un-needed elements.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://*.roblox.com/*"],
+            "js": ["render.js"]
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://*.roblox.com/*"
+    ],
+    "action": {
+      "default_icon": "icon.png"
+    }
+  }
