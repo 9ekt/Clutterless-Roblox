@@ -9,9 +9,7 @@
             "js": ["render.js"]
         }
     ],
-    "permissions": [
-        "tabs"
-    ],
+    "permissions": [],
     "host_permissions": [
         "https://*.roblox.com/*"
     ],
